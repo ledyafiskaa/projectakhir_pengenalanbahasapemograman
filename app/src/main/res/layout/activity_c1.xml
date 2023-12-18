@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cardview_dark_background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        />
+
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/c" />
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Pengertian Bahasa  C"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/R_txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Bahasa C adalah sebuah bahasa pemrograman yang diorientasikan pada struktural dan prosedural. Bahasa pemrograman ini dikembangkan pada 1972 di Bell Laboratories oleh Dennis Ritchie.
+Pada awalnya, bahasa C dikembangkan untuk utilitas yang bisa berjalan pada platform Unix. Kini, bahasa C dipakai pada banyak aplikasi.Bahasa C dianggap sebagai bahasa pemrograman tingkat menengah karena punya fitur yang sederhana. "
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/R_txt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_2"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Manfaat Bahasa  C"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/R_txt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_3"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text=" 1.Memahami cara kerja komputer."
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/R_txt_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_4"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text=" 2. Lebih mudah mempelajari bahasa pemrograman lain."
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/R_txt_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_5"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text=" 3. Menyederhanakan proses testing dan debugging."
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/R_txt_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_6"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text=" 4. Dapat berinteraksi dengan banyak bahasa pemrograman lain"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/R_txt_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_7"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="5. Bahasa pemrograman yang efisien dan mudah digunakan"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_kolahraga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="590dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="selanjutnya"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_nextolahraga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="640dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="kembali"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+
+
+</RelativeLayout>

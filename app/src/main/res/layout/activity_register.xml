@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/R_img_1"/>
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Welcome Bahasa Pemograman!!"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_1"
+        android:text="Let’s help you meet up your tasks."
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/R_txt_2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/R_txt_2"
+        android:padding="25dp"
+        android:id="@+id/ly_1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:text="Enter you Full Name"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:id="@+id/edt_fullname"
+            android:fontFamily="@font/poppinsregular"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:text="Enter your Email"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/edt_email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:text="Create password"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/edt_password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:text="Confirm password"
+            android:paddingLeft="10dp"
+            android:textSize="18dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/edt_conf_password"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/btn_register">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginRight="15dp"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Login"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

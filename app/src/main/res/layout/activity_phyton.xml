@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cardview_dark_background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-120dp"
+        android:src="@drawable/phyton" />
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="-161dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Sejarah Bahasa Phyton"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/R_txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="-91dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Python diciptakan oleh Guido van Rossum pertama kali pada awal tahun 1990-an di Belanda. Bahasa Python terinspirasi dari bahasa pemrograman ABC.Hingga saat ini, Guido masih tetap menjadi penulis utama untuk Python. Meskipun begitu, Python bersifat open source, sehingga ribuan orang juga memiliki kontribusi dalam pengembangannya.Pada tahun 1995, Guido melanjutkan di Corporation for National Research Iniatiative (CNRI), Virginia Amerika, tempat di mana ia merilis beberapa versi dari Python
+Pada bulan Mei tahun 2000, Guido dan tim Python pindah ke BeOpen.com dan menciptakan tim BeOpen PythonLabs. Selanjutnya, pada bulan Oktober masih di tahun yang sama, tim Python pindah ke Digital Creation yang sekarang menjadi Perusahaan Zope. Setelah itu, dibentuklah sebuah organisasi Python yang bernama Python Software Foundation (PSF) pada tahun 2001. Python Software Foundation (PSF) adalah organisasi nirlaba yang dibentuk khusus untuk segala hal yang berhubungan dengan hak intelektual Python. Perusahaan Zope menjadi anggota sponsor dari PSF. Keseluruhan versi Python yang dirilis bersifat open source. Dalam sejarahnya, hampir semua Python yang dirilis menggunakan lisensi GFL-compatible.
+"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_selanjutnya"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="590dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="selanjutnya"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_nextolahraga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="640dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="kembali"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

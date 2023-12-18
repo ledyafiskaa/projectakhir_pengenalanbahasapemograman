@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cardview_dark_background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-120dp"
+        android:src="@drawable/phyton" />
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="-161dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Pengertian Bahasa Phyton"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/R_txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="-100dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Python adalah salah satu bahasa pemrograman yang dapat melakukan eksekusi sejumlah instruksi multi guna secara langsung (interpretatif) dengan metode orientasi objek (Object Oriented Programming) serta menggunakan semantik dinamis untuk memberikan tingkat keterbacaan syntax.
+ "
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+
+    <TextView
+        android:id="@+id/R_txt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-1dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Kelebihan Bahasa Phyton"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/R_txt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_3"
+        android:layout_marginTop="-9dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="1. Mudah dipelajari, sintaksnya cukup sederhana dan mudah dimengerti
+                      2. udah diaplikasikan dalam mengembangkan produk
+                      3. Mendukung IoT (Internet of Things)
+                      4. Fleksibel, dapat diintegrasikan dengan aplikasi yang ditulis dalam bahasa pemrograman lain"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+
+    <TextView
+        android:id="@+id/R_txt_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-11dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Kelebihan Bahasa Phyton"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/R_txt_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_5"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="1. Kurangnya dukungan multiprosesor sehingga dapat membatasi penulisan kode
+                      2. Lebih sedikit developers yang berpengalaman melakukan pekerjaan menggunakan bahasa python
+                      3. Tidak ideal untuk memory intensive task dikarenakan menghasilkan konsumsi memori yang cukup tinggi
+                      4. Kurang populer untuk mobile app development"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_kolahraga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="selanjutnya"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_nextolahraga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="680dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="kembali"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

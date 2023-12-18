@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cardview_dark_background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        />
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/phpp" />
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Contoh Program Bahasa PHP"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/p"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/p" />
+
+    <TextView
+        android:id="@+id/R_txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Keterangan  Bahasa JavaScript"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/R_txt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_2"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Sintaks: data_type variable_name;Fungsi: Digunakan untuk mendeklarasikan variabel dengan tipe data tertentu."
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+    <TextView
+        android:id="@+id/R_txt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_3"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="printf digunakan untuk mencetak output ke layar, sedangkan scanf digunakan untuk mengambil input dari pengguna."
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/R_txt_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_4"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Looping - For Loop:Fungsi: Mengatur perulangan dengan langkah-langkah tertentu."
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/btn_c1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="selanjutnya"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_kembali"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="670dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="kembali"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+
+
+</RelativeLayout>

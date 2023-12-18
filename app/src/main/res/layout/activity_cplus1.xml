@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cardview_dark_background">
+
+
+    <ImageView
+        android:id="@+id/warna"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+
+        android:src="@drawable/img_2" />
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="250dp"
+        android:layout_height="146dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/cplus" />
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Pengertian  Bahasa C++"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/R_txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Bahasa C++ adalah salah satu bahasa pemrogaman komputer yang paling populer di dunia dan  dapat digunakan untuk membuat berbagai aplikasi berkinerja tinggi (general-purpose programming language) seperti aplikasi games, browsers,  pengolah gambar, software gadget dan masih banyak lagi. Bahasa C++ yang merupakan Object Oriented Programming (OOP) yang artinya C++ mempunyai data dan function yang bergabung dalam kelas dan objek yang sama untuk saling bekerjasama dalam memecahkan sebuah masalah.  "
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/R_txt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_2"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Manfaat Bahasa C++"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/R_txt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_2"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="1.Pemrograman yang Lebih Kuat"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+
+    <TextView
+        android:id="@+id/R_txt_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_4"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="2. Kemampuan untuk Membuat Aplikasi Berbasis Web."
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/R_txt_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_5"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="3. Kemampuan untuk Membuat Aplikasi Berbasis Game."
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/R_txt_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_6"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="4. Kemampuan untuk Membuat Aplikasi Berbasis Database."
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_kolahraga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="selanjutnya"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_nextolahraga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="640dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="kembali"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

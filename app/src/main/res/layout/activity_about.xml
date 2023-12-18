@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cardview_dark_background">
+
+
+    <ImageView
+        android:id="@+id/warna1"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/img_2" />
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="About App"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="94dp"
+        android:src="@drawable/allp" />
+
+    <TextView
+        android:id="@+id/R_txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="ALL Programing App!!"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/R_txt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_2"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Semua Aplikasi Pemrograman- C, C++, Java  Python:
+Aplikasi pemrograman dan pengkodean yang sederhana dan mudah untuk mempelajari kode dengan C, C++, Java, Python (Bahasa lainnya segera hadir) secara gratis.
+• Aplikasi pemrograman ini dibuat oleh sekelompok Coding Nerd, yang suka coding..
+Bahasa Termasuk:
+Pelajari C: Pelajari C dari dasar yang membantu Anda
+untuk mengembangkan Perangkat Lunak Sistem, Perangkat Lunak Aplikasi, Sistem Tertanam dan banyak lagi. (ini adalah bahasa terbaik untuk memulai perjalanan Anda)
+→ Pelajari C++: Pelajari C++ dari dasar yang membantu Anda
+untuk membuat sendiri Sistem Operasi, Game, Aplikasi Berbasis GUI, Browser Web, Sistem Tertanam, Aplikasi, Kompiler, Perangkat Lunak Manajemen Basis Data, dan masih banyak lagi.
+→ Pelajari Java: Pelajari Java dari dasar yang membantu Anda mengembangkan Aplikasi Seluler, Aplikasi GUI Desktop, Aplikasi Berbasis Web, Aplikasi Permainan, Teknologi Big Data, Aplikasi Terdistribusi, Aplikasi Berbasis Cloud, Aplikasi IoT, dan banyak lagi.
+Pelajari Python: Pelajari Python dari dasar yang membantu Anda mengembangkan situs web dan perangkat lunak, otomatisasi tugas, analisis data, visualisasi data, dan banyak lagi.
+"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cardview_dark_background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        />
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/c" />
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Sejarah Bahasa C"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/R_txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_1"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Bahasa C adalah sebuah bahasa pemrograman yang diorientasikan pada struktural dan prosedural. Bahasa pemrograman ini dikembangkan pada 1972 di Bell Laboratories oleh Dennis Ritchie.
+Pada awalnya, bahasa C dikembangkan untuk utilitas yang bisa berjalan pada platform Unix. Kini, bahasa C dipakai pada banyak aplikasi.
+Bahasa C dianggap sebagai bahasa pemrograman tingkat menengah karena punya fitur yang sederhana. "
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn_c1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="590dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="selanjutnya"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="640dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="kembali"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
